@@ -1,9 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\KUROPS\u0130S\\Desktop\\Yeni klas\u00F6r (2)\\BAP\\",
+  "WorkspaceRootPath": "D:\\GitHub\\BAP_Makale1\\BAP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76E4642D-9D7C-4BFF-AAA1-ECE074181B72}|BAP.INTERFACE\\BAP.INTERFACE.csproj|c:\\users\\kurops\u0130s\\desktop\\yeni klas\u00F6r (2)\\bap\\bap.interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A81D7725-D07B-4FB9-AF39-550D5F6AB3C5}|BAP.GANTT\\BAP.GANTT.csproj|d:\\github\\bap_makale1\\bap\\bap.gantt\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A81D7725-D07B-4FB9-AF39-550D5F6AB3C5}|BAP.GANTT\\BAP.GANTT.csproj|solutionrelative:bap.gantt\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F301896-8A50-4AD8-A3CB-80CFB7B3A17A}|BAP.MIP\\BAP.MIP.csproj|d:\\github\\bap_makale1\\bap\\bap.mip\\gurobioptimizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F301896-8A50-4AD8-A3CB-80CFB7B3A17A}|BAP.MIP\\BAP.MIP.csproj|solutionrelative:bap.mip\\gurobioptimizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76E4642D-9D7C-4BFF-AAA1-ECE074181B72}|BAP.INTERFACE\\BAP.INTERFACE.csproj|d:\\github\\bap_makale1\\bap\\bap.interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76E4642D-9D7C-4BFF-AAA1-ECE074181B72}|BAP.INTERFACE\\BAP.INTERFACE.csproj|solutionrelative:bap.interface\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,14 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\KUROPS\u0130S\\Desktop\\Yeni klas\u00F6r (2)\\BAP\\BAP.INTERFACE\\Program.cs",
-              "RelativeDocumentMoniker": "BAP.INTERFACE\\Program.cs",
-              "ToolTip": "C:\\Users\\KUROPS\u0130S\\Desktop\\Yeni klas\u00F6r (2)\\BAP\\BAP.INTERFACE\\Program.cs",
-              "RelativeToolTip": "BAP.INTERFACE\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\GitHub\\BAP_Makale1\\BAP\\BAP.GANTT\\Class1.cs",
+              "RelativeDocumentMoniker": "BAP.GANTT\\Class1.cs",
+              "ToolTip": "D:\\GitHub\\BAP_Makale1\\BAP\\BAP.GANTT\\Class1.cs",
+              "RelativeToolTip": "BAP.GANTT\\Class1.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAqwLsAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-29T13:25:46.931Z",
+              "WhenOpened": "2026-05-09T19:17:11.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GurobiOptimizer.cs",
+              "DocumentMoniker": "D:\\GitHub\\BAP_Makale1\\BAP\\BAP.MIP\\GurobiOptimizer.cs",
+              "RelativeDocumentMoniker": "BAP.MIP\\GurobiOptimizer.cs",
+              "ToolTip": "D:\\GitHub\\BAP_Makale1\\BAP\\BAP.MIP\\GurobiOptimizer.cs",
+              "RelativeToolTip": "BAP.MIP\\GurobiOptimizer.cs",
+              "ViewState": "AQIAAAIBAAAAAAAAAAAqwCUBAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:15:20.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\BAP_Makale1\\BAP\\BAP.INTERFACE\\Program.cs",
+              "RelativeDocumentMoniker": "BAP.INTERFACE\\Program.cs",
+              "ToolTip": "D:\\GitHub\\BAP_Makale1\\BAP\\BAP.INTERFACE\\Program.cs",
+              "RelativeToolTip": "BAP.INTERFACE\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:24:12.052Z",
               "EditorCaption": ""
             }
           ]

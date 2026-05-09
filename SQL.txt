@@ -1,0 +1,5 @@
+MSSQL Sunucu 		94.73.146.3
+Veritabanı Adı:		u0987408_Acdmy
+Kullanıcı Adı:		u0987408_user23E
+Kullanıcı Şifresi:	7VPK-0M-0_zw2g=d
+

@@ -1,0 +1,22 @@
+Veritabanı Çekme DATABASE FİRST
+
+Scaffold-DbContext 'Server=94.73.146.3;Initial Catalog=u0987408_Acdmy; Persist Security Info=True; User ID=u0987408_user23E;Password=7VPK-0M-0_zw2g=d;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=True' Microsoft.EntityFrameworkCore.SqlServer
+
+
+Farklı Dosya ve Namespace lere toplama
+Scaffold-DbContext 'Server=94.73.146.3;Initial Catalog=u0987408_Acdmy;Persist Security Info=True;User ID=u0987408_user23E;Password=7VPK-0M-0_zw2g=d;MultipleActiveResultSets=True;Encrypt=True; TrustServerCertificate=True' Microsoft.EntityFrameworkCore.SqlServer -ContextDir Context -OutputDir Entities -Namespace BAP.DAL -ContextNamespace BAP.DAL
+
+Modeli Güncelleme: Sonuna sadece -Force parametresi eklenir
+Scaffold-DbContext 'Server=94.73.146.3;Initial Catalog=u0987408_Acdmy;Persist Security Info=True;User ID=u0987408_user23E;Password=7VPK-0M-0_zw2g=d;MultipleActiveResultSets=True;Encrypt=True; TrustServerCertificate=True' Microsoft.EntityFrameworkCore.SqlServer -Force
+
+LazyLoading için 
+aşağıdaki paket yüklenmeli ve OnConfiguring içine  optionsBuilder.UseLazyLoadingProxies(); metodu eklenmeli
+Microsoft.EntityFrameworkCore.Proxies
+
+Döngüleri engellemek için;
+Program cs içerisine
+builder.Services.AddControllers().AddJsonOptions(x=>x.JsonSerializerOptions.ReferenceHandler=ReferenceHandler.IgnoreCycles);
+komutu yazılır
+
+IUnutofWork
+Hata durumunda veritabanı işlemlerini geri almaya yarar. SaveChanges ile ilgili ama tam olarak nasıl uygulanır anlamadım.
